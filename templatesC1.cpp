@@ -12,7 +12,7 @@ public:
     size = m;
     arr = new T[size];
    }
-   T dotProduct(const vector <U> & v)
+   T dotProduct(const vector <T> & v)
    {
     T d = 0;
     for(int i = 0; i < size; i++)
