@@ -12,7 +12,7 @@ int main()
     //All of (returns true when all elements satisfy the condition) 
     //None of (returns true of all elements doesnt satisfy the condition)
     //any of (returns true if any one element satisfies the condition)
-    //Lambda function (syntax)  ----->>>  [](parameters){return value;}
+    //Lambda function (syntax)  ----->>>  [](parameters){return value;} 
     auto sum = [](int x, int y){return x+y;};  //Lambda function declared
     cout<<sum(2,3)<<endl;
 
